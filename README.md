@@ -23,7 +23,7 @@
 
 ## 🌐 Live Demo
 
-> 🔗 **[https://sakshimalkar.github.io/E-Learning/](https://sakshimalkar.github.io/E-Learning/)**
+> 🔗 **[ https://sakshimalkar.github.io/healthcare-website/]( https://sakshimalkar.github.io/healthcare-website/)**
 
 ---
 
