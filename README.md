@@ -1,28 +1,29 @@
+ # 🏥 HealthCare Plus
+
+## Complete Healthcare Management System
+
 <div align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
   <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="JWT" />
 </div>
 
 <br/>
 
-# 🏥 HealthCare Plus
-
-## Complete Healthcare Management System
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/healthcare-website.svg?style=social)](https://github.com/yourusername/healthcare-website)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/healthcare-website.svg?style=social)](https://github.com/yourusername/healthcare-website)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/healthcare-website.svg)](https://github.com/yourusername/healthcare-website)
-[![GitHub license](https://img.shields.io/github/license/yourusername/healthcare-website.svg)](https://github.com/yourusername/healthcare-website)
+[![GitHub stars](https://img.shields.io/github/stars/sakshimalkar/healthcare-website.svg?style=social)](https://github.com/sakshimalkar/healthcare-website)
+[![GitHub forks](https://img.shields.io/github/forks/sakshimalkar/healthcare-website.svg?style=social)](https://github.com/sakshimalkar/healthcare-website)
+[![GitHub issues](https://img.shields.io/github/issues/sakshimalkar/healthcare-website.svg)](https://github.com/sakshimalkar/healthcare-website)
+[![GitHub license](https://img.shields.io/github/license/sakshimalkar/healthcare-website.svg)](https://github.com/sakshimalkar/healthcare-website)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 ---
 
-## ✨ Live Demo
+## 🌐 Live Demo
 
-> 🔗 https://sakshimalkar.github.io/E-Learning/
+> 🔗 **[https://sakshimalkar.github.io/E-Learning/](https://sakshimalkar.github.io/E-Learning/)**
 
 ---
 
@@ -116,54 +117,63 @@
 
 ---
 
-### 📊 Database Schema
+┌─────────────────────────────────────────────────────────────┐
+│ Client (Browser) │
+│ http://localhost:3000 │
+└─────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────┐
+│ React.js Frontend │
+│ (Components, Pages, Styles) │
+└─────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────┐
+│ Flask REST API Backend │
+│ (Routes, Models, Authentication) │
+└─────────────────────────────────────────────────────────────┘
+│
+▼
+┌─────────────────────────────────────────────────────────────┐
+│ SQLite Database │
+│ (Users, Doctors, Patients, Appointments) │
+└─────────────────────────────────────────────────────────────┘
 
-Users
-├── id (PK)
-├── full_name
-├── email (UNIQUE)
-├── password (Hashed)
-├── phone
-├── role (admin/doctor/patient)
-└── created_at
+5️⃣ Access the Application
+Frontend: http://localhost:3000
 
-Doctors
-├── id (PK)
-├── user_id (FK → Users.id)
-├── specialization
-├── qualification
-├── experience
-├── bio
-├── consultation_fee
-├── available_days
-├── available_time
-├── rating
-└── total_patients
+Backend API: http://localhost:5000
 
-Patients
-├── id (PK)
-├── user_id (FK → Users.id)
-├── date_of_birth
-├── gender
-├── blood_group
-├── address
-├── emergency_contact
-└── medical_history
+Admin Login: admin@healthcare.com / admin123
 
-Appointments
-├── id (PK)
-├── patient_id (FK → Patients.id)
-├── doctor_id (FK → Doctors.id)
-├── appointment_date
-├── appointment_time
-├── status (pending/confirmed/completed/cancelled)
-├── symptoms
-├── notes
-└── created_at
+🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create a new branch: git checkout -b feature/YourFeature
+
+Commit your changes: git commit -m 'Add some feature'
+
+Push to the branch: git push origin feature/YourFeature
+
+Open a Pull Request
+
+Guidelines
+Follow the existing code style
+
+Write meaningful commit messages
+
+Update documentation if needed
+
+Test your changes before submitting
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 👩‍💻 Developer
 Sakshi Malkar
-
 https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
@@ -185,3 +195,5 @@ Email: sakshimalkar@email.com
 LinkedIn: Sakshi Malkar
 
 <div align="center"> <sub>Built with ❤️ by <a href="https://linkedin.com/in/sakshimalkar">Sakshi Malkar</a></sub> <br/> <sub>⭐ Star this repository if you find it helpful!</sub> </div> ```
+
+## 🏗️ Architecture
